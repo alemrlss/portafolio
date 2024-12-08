@@ -1,5 +1,4 @@
 import { useDarkMode } from "../contexts/DarkModeContext";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Íconos sociales
 
 const Footer = () => {
   const { darkMode } = useDarkMode();

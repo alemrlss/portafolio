@@ -1,7 +1,7 @@
 import TypingEffect from "react-typing-effect";
 import { FaDownload, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { useDarkMode } from "../../contexts/DarkModeContext";
-import imgProfile from "../../../public/foto_perfil.jpg";
+import imgProfile from "../../../public/perfil.png";
 import { motion } from "framer-motion"; // Importar framer-motion
 
 function AboutMe() {
@@ -45,7 +45,7 @@ function AboutMe() {
                 darkMode ? "text-gray-900" : "text-black"
               } transition-all duration-300 ease-in-out`}
             >
-              <FaGithub size={24} mdSize={28} />
+              <FaGithub size={24} />
             </a>
             <a
               href="https://www.linkedin.com/in/alemrlss"
@@ -55,7 +55,7 @@ function AboutMe() {
                 darkMode ? "text-gray-200" : "text-black"
               } transition-all duration-300 ease-in-out`}
             >
-              <FaLinkedin size={24} mdSize={28} />
+              <FaLinkedin size={24} />
             </a>
             <a
               href="https://wa.me/+34676017218"
@@ -65,7 +65,7 @@ function AboutMe() {
                 darkMode ? "text-gray-200" : "text-[#3B82F6]"
               } transition-all duration-300 ease-in-out`}
             >
-              <FaWhatsapp size={24} mdSize={28} />
+              <FaWhatsapp size={24} />
             </a>
           </div>
         </div>
